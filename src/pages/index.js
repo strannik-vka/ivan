@@ -2132,7 +2132,7 @@ export default (() => {
 				place={"endOfBody"}
 				rawKey={"601edfb422a983df27535bf9"}
 			>
-				{"document.addEventListener('DOMContentLoaded', function(){\ndocument.querySelector('.file_select').addEventListener('click', function () {\n    this.querySelector('input[type=\"file\"]').click();\n});\ndocument.querySelector('.file_select [type=\"file\"]').addEventListener('change', function () {\n    var names = [];\n    for (var i = 0; i < this.files.length; i++) {\n        names.push(this.files[i].name);\n    }\n    document.querySelector('[data-file-name=\"' + this.getAttribute('name') + '\"]').innerHTML = names.join(', ');\n    document.querySelector('.file_select').classList.add('active');\n});});"}
+				{"eval(document.addEventListener('DOMContentLoaded', function(){\ndocument.querySelector('.file_select').addEventListener('click', function () {\n    this.querySelector('input[type=\"file\"]').click();\n});\ndocument.querySelector('.file_select [type=\"file\"]').addEventListener('change', function () {\n    var names = [];\n    for (var i = 0; i < this.files.length; i++) {\n        names.push(this.files[i].name);\n    }\n    document.querySelector('[data-file-name=\"' + this.getAttribute('name') + '\"]').innerHTML = names.join(', ');\n    document.querySelector('.file_select').classList.add('active');\n});}););"}
 			</script>
 		</RawHtml>
 	</Theme>;
